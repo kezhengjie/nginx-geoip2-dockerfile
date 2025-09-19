@@ -6,11 +6,11 @@ This repository contains a Dockerized build of Nginx 1.28.0 with the ngx_http_ge
 ## Overview 
 This project provides a simple way to build and run a custom Nginx server that can perform geolocation lookups directly within its configuration. This is useful for tasks such as:
 
-Redirecting users based on their country.
+* Redirecting users based on their country.
 
-Setting variables for logging or access control.
+* Setting variables for logging or access control.
 
-Delivering different content to users from specific regions.
+* Delivering different content to users from specific regions.
 
 The Dockerfile uses a multi-stage build to ensure the final image is lean, containing only the necessary runtime components.
 

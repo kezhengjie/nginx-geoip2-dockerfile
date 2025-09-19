@@ -1,6 +1,8 @@
 # nginx-geoip2-dockerfile
 This repository contains a Dockerized build of Nginx 1.28.0 with the ngx_http_geoip2_module (v3.4) module, pre-configured to use the MaxMind GeoLite2 Country database for geolocation-based logic within Nginx.
 
+[README](README.md) | [中文文档](README.zh-CN.md)
+
 ## Overview 
 This project provides a simple way to build and run a custom Nginx server that can perform geolocation lookups directly within its configuration. This is useful for tasks such as:
 

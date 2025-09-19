@@ -1,5 +1,5 @@
 FROM ubuntu:22.04 AS builder
-RUN export HTTP_PROXY=http://192.168.1.212:7890 && export HTTPS_PROXY=http://192.168.1.212:7890
+
 RUN apt update && apt install gcc make libpcre3-dev zlib1g-dev libssl-dev -y
 RUN apt install software-properties-common -y
 RUN add-apt-repository ppa:maxmind/ppa && apt update
